@@ -1,0 +1,142 @@
+@charset "UTF-8";
+._service{
+  background-image: url(../img/Serviceーfv.jpg);
+  background-size: cover;
+  background-position: 50%;
+}
+
+.service-wrap{
+  margin: 0 auto;
+  padding: 2% 0;
+}
+
+.service-wrap-ttl{
+  padding-left: 10%;
+}
+
+.service-wrap-con{
+  padding: 2% 0;
+  position: relative;
+}
+
+.service-wrap-con-item{
+  padding-bottom: 2%;
+}
+
+.service-wrap-con-item-ttl{
+  text-align: center;
+  background-color: #3D3A3A;
+  color: #fff;
+}
+
+.service-wrap-con-item-ttl h4{
+  padding: 2% 0 4% 0;
+  font-size: 1.2rem;
+}
+
+.service-wrap-con-item-ttl img{
+  width: 300px;
+  aspect-ratio: 5/4;
+}
+
+.service-wrap-con-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.service-wrap-con-item-txt{
+  width: 30%;
+  background-color: #fff;
+  width: 30%;
+  padding: 3%;
+  align-items: baseline;
+  border: solid 2px #ddd;
+  box-shadow: 20px 20px 30px #ddd;
+  margin-top: 10%;
+}
+
+.service-wrap-con-item-txt h5{
+  font-size: 1.5rem;
+  text-align: center;
+  padding-bottom: 2%;
+}
+
+@media screen and (max-width: 768px){
+  .service-wrap-con-item-txt{
+  width: 40%;
+  }
+}
+
+@media screen and (max-width: 500px){
+  .service-wrap-con-item{
+    display: block;
+    margin-bottom: 5%;
+  }
+
+  .service-wrap-con-item-ttl{
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  .service-wrap-con-item-txt{
+    width: 300px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 375px){
+  .service-wrap-con-item-ttl img{
+  width: 250px;
+  aspect-ratio: 5/4;
+}
+
+.service-wrap-con-item-ttl{
+  text-align: center;
+  background-color: #3D3A3A;
+  color: #fff;
+  width: 250px;
+}
+
+.service-wrap-con-item-txt{
+  width: 65%;
+}
+
+.service-wrap-con-item-txt h5{
+  font-size: 1.3rem;
+}
+
+.service-wrap-con-item-txt p{
+  font-size: 0.8rem;
+}
+}
+
+@media screen and (max-width: 375px){
+.service-wrap-con-item-ttl img{
+  width: 200px;
+  aspect-ratio: 5/4;
+}
+
+.service-wrap-con-item-ttl{
+  text-align: center;
+  background-color: #3D3A3A;
+  color: #fff;
+  width: 200px;
+}
+
+.service-wrap-con-item-txt{
+  width: 65%;
+}
+
+.service-wrap-con-item-txt h5{
+  font-size: 1rem;
+}
+
+.service-wrap-con-item-txt p{
+  font-size: 0.6rem;
+}
+
+.service-wrap-con-item-ttl h4{
+  font-size: 1rem;
+}
+}

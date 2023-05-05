@@ -1,0 +1,291 @@
+@charset "UTF-8";
+
+/* contentのtop */
+.con-top{
+  position: relative;
+  width: 100%;
+  height: 60vh;
+}
+
+.con-top-wrap{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.con-top-wrap p{
+  font-size: 2rem;
+  width: 40%;
+  height: 40vh;
+  padding: 11% 0 0 5%;
+  margin-top: 1%;
+  margin-top: 0%;
+  background-color: rgba(119, 176, 229, 0.9);
+  clip-path: polygon(0% 0%, 0% 100%, 100% 50%);
+}
+
+.con-top-wrap__ttl small{
+  display: block;
+  font-size: 1rem;
+}
+
+.con-top-bg{
+  width: 80%;
+  height: 63vh;
+  position: absolute;
+  right: 0;
+  z-index: -5;
+}
+
+.breadcrumb {
+  width: 90%;
+  margin: 3.5% auto 0;
+}
+
+.breadcrumb-wrapper__list {
+  display: flex;
+}
+
+.breadcrumb-wrapper__list__item {
+  font-size: 1.25rem;
+}
+
+.breadcrumb-wrapper__list__item::after {
+  content: ">";
+  padding: 0 10px;
+  font-size: 1.25rem;
+}
+
+.breadcrumb-wrapper__list__item:last-child::after {
+  content: "";
+}
+
+.b-color {
+  color: #2A95F8;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 1024px){
+  .breadcrumb {
+    width: 90%;
+    margin: 3.5% auto 0;
+}
+
+.con-top{
+  position: relative;
+  width: 100%;
+  height: 70vh;
+}
+
+.con-top-wrap{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.con-top-wrap p{
+  font-size: 2rem;
+  width: 40%;
+  height: 40vh;
+  padding: 8% 0 0 5%;
+  margin-top: 0%;
+  background-color: rgba(119, 176, 229, 0.9);
+  clip-path: polygon(0% 0%, 0% 100%, 100% 50%);
+}
+
+.con-top-wrap__ttl small{
+  display: block;
+  font-size: 1rem;
+}
+
+.con-top-bg{
+  width: 80%;
+  height: 55vh;
+  position: absolute;
+  right: 0;
+  z-index: -5;
+}
+}
+
+
+@media screen and (max-width: 768px){
+.breadcrumb {
+    width: 90%;
+    margin: 3.5% auto 0;
+}
+
+.con-top{
+  position: relative;
+  width: 100%;
+  height: 50vh;
+}
+
+.con-top-wrap{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.con-top-wrap p{
+  font-size: 1.3rem;
+  width: 40%;
+  height: 35vh;
+  padding: 12% 0 0 5%;
+  margin-top: 0%;
+  background-color: rgba(119, 176, 229, 0.9);
+  clip-path: polygon(0% 0%, 0% 100%, 100% 50%);
+}
+
+.con-top-wrap__ttl small{
+  display: block;
+  font-size: 0.8rem;
+}
+
+.con-top-bg{
+  width: 80%;
+  height: 55vh;
+  position: absolute;
+  right: 0;
+  z-index: -5;
+}
+
+.breadcrumb-wrapper__list__item a{
+  font-size: 0.8rem;
+}
+}
+
+@media screen and (max-width: 650px){
+
+.con-top{
+  position: relative;
+  width: 100%;
+  height: 60vh;
+}
+
+.con-top-wrap p{
+  font-size: 1.3rem;
+  width: 40%;
+  height: 33vh;
+  padding: 15% 0 0 5%;
+  margin-top: 0%;
+  background-color: rgba(119, 176, 229, 0.9);
+  clip-path: polygon(0% 0%, 0% 100%, 100% 50%);
+}
+
+.con-top-bg{
+  width: 80%;
+  height: 50vh;
+  position: absolute;
+  right: 0;
+  z-index: -5;
+  margin-top: 0%;
+}
+}
+
+@media screen and (max-width: 500px){
+.breadcrumb {
+  width: 90%;
+  margin: 3.5% auto 0;
+}
+
+.con-top{
+  position: relative;
+  width: 100%;
+  height: 60vh;
+}
+
+.con-top-wrap{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.con-top-wrap p{
+  font-size: 1.3rem;
+  width: 40%;
+  height: 35vh;
+  padding: 21% 0 0 5%;
+  margin-top: 2%;
+  background-color: rgba(119, 176, 229, 0.9);
+  clip-path: polygon(0% 0%, 0% 100%, 100% 50%);
+}
+
+.con-top-wrap__ttl small{
+  display: block;
+  font-size: 0.8rem;
+}
+
+.con-top-bg{
+  width: 80%;
+  height: 58vh;
+  position: absolute;
+  right: 0;
+  z-index: -5;
+}
+}
+
+@media screen and (max-width: 425px){
+
+.con-top{
+  position: relative;
+  width: 100%;
+  height: 60vh;
+}
+
+.con-top-wrap{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.con-top-wrap p{
+  font-size: 1.3rem;
+  width: 40%;
+  height: 33vh;
+  padding: 25% 0 0 5%;
+  margin-top: 4%;
+  background-color: rgba(119, 176, 229, 0.9);
+  clip-path: polygon(0% 0%, 0% 100%, 100% 50%);
+}
+
+.con-top-wrap__ttl small{
+  display: block;
+  font-size: 0.8rem;
+}
+
+.con-top-bg{
+  width: 80%;
+  height: 58vh;
+  position: absolute;
+  right: 0;
+  z-index: -5;
+}
+}
+
+@media screen and (max-width: 375px){
+
+.con-top{
+  position: relative;
+  width: 100%;
+  height: 60vh;
+}
+
+.con-top-wrap p{
+  font-size: 1.3rem;
+  width: 40%;
+  height: 33vh;
+  padding: 25% 0 0 5%;
+  margin-top: 5%;
+  background-color: rgba(119, 176, 229, 0.9);
+  clip-path: polygon(0% 0%, 0% 100%, 100% 50%);
+}
+
+.con-top-bg{
+  width: 80%;
+  height: 55vh;
+  position: absolute;
+  right: 0;
+  z-index: -5;
+  margin-top: 5%;
+}
+}
