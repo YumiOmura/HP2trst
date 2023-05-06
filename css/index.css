@@ -31,7 +31,7 @@
 }
 
 .about-wrap-con{
-  font-size: 1.3rem;
+  font-size: 1.15rem;
   line-height: 2;
   padding: 3% 0;
 }
@@ -80,7 +80,7 @@
 
 .service-wrap-con-item img{
   width: 400px;
-  height: 410px;
+  height: 331px;
 }
 
 .service-wrap-con-item p{
@@ -144,6 +144,10 @@
   color: #000;
   background: #fff;
   transition: 0.75s;
+}
+
+.news-wrap-con-item p{
+  font-size: 16px;
 }
 
 
@@ -233,7 +237,7 @@
 
 .service-wrap-con-item img{
   width: 350px;
-  height: 370px;
+  height: 281px;
 }
 
 .service-wrap-con-item p{
@@ -324,7 +328,7 @@
 
 .service-wrap-con-item img{
   width: 300px;
-  height: 300px;
+  height: 231px;
 }
 
 .news-wrap-con-item{
@@ -379,7 +383,7 @@
 
   .service-wrap-con-item img{
   width: 250px;
-  height: 220px;
+  height: 181px;
 }
 
 .news-wrap::after{
