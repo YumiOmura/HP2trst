@@ -20,38 +20,40 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
     <link rel="stylesheet" type="text/css" href="../css/reset.css">
     <link rel="stylesheet" type="text/css" href="../css/common1.css">
     <link rel="stylesheet" type="text/css" href="../css/common2.css">
     <link rel="stylesheet" type="text/css" href="../css/news.css">
   </head>
   <body>
-    <header>
+    <header class="header" id="header">
       <div class="header-wrap">
         <div class="header-wrap-ttl">
-          <a href="/index.html">
+          <a href="../index.html">
             <h4>シャープ楽器</h4>
             <i class="fa-solid fa-music"></i>
           </a>
         </div>
-        <nav class="header-wrap-nav">
-          <ul class="header-wrap-nav-list">
-            <li class="header-wrap-nav-list-item">
+        <nav class="header-wrapper__nav">
+          <ul class="header-wrapper__nav__list">
+            <li class="header-wrapper__nav__list__item">
               <a href="../html/about.html">About</a>
             </li>
-            <li class="header-wrap-nav-list-item">
+            <li class="header-wrapper__nav__list__item">
               <a href="../html/service.html">Service</a>
             </li>
-            <li class="header-wrap-nav-list-item">
+            <li class="header-wrapper__nav__list__item">
               <a href="../html/news.html">News</a>
             </li>
-            <li class="header-wrap-nav-list-item">
+            <li class="header-wrapper__nav__list__item">
               <a href="../html/contact.html">Contact</a>
             </li>
           </ul>
         </nav>
+        <div class="drawer">
+        </div>
       </div>
-      <div class="drawer"></div>
     </header>
     <main>
       <section class="con-top" id="con-top">
@@ -123,46 +125,45 @@
           </div>
         </div>
       </section>
-      <footer>
-        <div class="footer-wrap">
-          <div class="footer-wrap-ttl">
-            <h4>シャープ楽器</h4>
-            <i class="fa-solid fa-music"></i>
+    </main>
+    <footer>
+      <div class="footer-wrap">
+        <div class="footer-wrap-ttl">
+          <h4>シャープ楽器</h4>
+          <i class="fa-solid fa-music"></i>
+        </div>
+        <nav class="footer-wrap-nav">
+          <ul class="footer-wrap-nav-list">
+            <li class="footer-wrap-nav-list-item">
+              <a href="../html/about.html">About</a>
+            </li>
+            <li class="footer-wrap-nav-list-item">
+              <a href="../html/service.html">Service</a>
+            </li>
+            <li class="footer-wrap-nav-list-item">
+              <a href="../html/news.html">News</a>
+            </li>
+            <li class="footer-wrap-nav-list-item">
+              <a href="../html/contact.html">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="sns-icon">
+          <div class="twitter-icon">
+            <a href="/">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
           </div>
-          <nav class="footer-wrap-nav">
-            <ul class="footer-wrap-nav-list">
-              <li class="footer-wrap-nav-list-item">
-                <a href="../html/about.html">About</a>
-              </li>
-              <li class="footer-wrap-nav-list-item">
-                <a href="../html/service.html">Service</a>
-              </li>
-              <li class="footer-wrap-nav-list-item">
-                <a href="../html/news.html">News</a>
-              </li>
-              <li class="footer-wrap-nav-list-item">
-                <a href="../html/contact.html">Contact</a>
-              </li>
-            </ul>
-          </nav>
-          <div class="sns-icon">
-            <div class="twitter-icon">
-              <a href="/">
-                <i class="fa-brands fa-twitter"></i>
-              </a>
-            </div>
-            <div class="inst-icon">
-              <a href="/">
-                <i class="fa-brands fa-instagram"></i>
-              </a>
-            </div>
+          <div class="inst-icon">
+            <a href="/">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
           </div>
         </div>
-        <small class="footer-wrap__right">©2023_＃music.All Right Reserved.</small>
-      </footer>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-      <script type="text/javascript" src="js/common.js"></script>
-      <script src="https://kit.fontawesome.com/5505862c78.js" crossorigin="anonymous"></script>
-    </main>
+      </div>
+      <small class="footer-wrap__right">©2023_＃music.All Right Reserved.</small>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/common.js"></script>
   </body>
 </html>

@@ -50,7 +50,9 @@
 .contact-wrapper__form__box p{
   background-color: #F66398;
   color:#fff;
-  padding: 1%;
+  padding: 10px 0;
+  width: 8%;
+  text-align: center;
 }
 
 .any p{
@@ -133,7 +135,7 @@
 .contact-wrapper__form__box p{
   background-color: #F66398;
   color:#fff;
-  padding: 1%;
+  padding: 5px 0;
   width: 15%;
   text-align: center;
 }
@@ -145,5 +147,18 @@
 .contact-wrapper__form__box__ttl{
   padding-left: 0;
 }
+
+}
+
+@media screen and (max-width: 425px){
+  .contact-wrapper__form__box p{
+    font-size: 10px;
+  }
+
+  .contact-wrapper__form__box__select,
+  .contact-wrapper__form__box__input,
+  .contact-wrapper__form__box__area {
+    font-size: 0.7rem;
+  }
 
 }
