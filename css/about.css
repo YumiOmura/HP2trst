@@ -136,7 +136,7 @@
 }
 
 .about-wrap-item p{
-  width: 25%;
+  width: 35%;
   font-size: 0.7rem;
   border-bottom: 1px solid #000;
 }
@@ -200,7 +200,7 @@
 }
 
 .about-wrap-item p{
-  width: 35%;
+  width: 40%;
   font-size: 0.5rem;
   border-bottom: 1px solid #000;
 }
@@ -215,7 +215,7 @@
 .about3-wrapper__map__block{
   margin:0 5%;
   padding: 2% 0;
-  width: 350px; height: 270px;
+  width: 320px; height: 270px;
 }
 
 .about3-wrapper__map__block__one{
@@ -242,13 +242,13 @@
     padding: 2%;
   }
   .about-wrap-item h6{
-  width: 15%;
+  width: 20%;
   font-size: 0.7rem;
   border-bottom: 1px solid #000;
 }
 
 .about-wrap-item p{
-  width: 45%;
+  width: 50%;
   font-size: 0.5rem;
   border-bottom: 1px solid #000;
 }
@@ -286,6 +286,14 @@
   font-size: 0.8rem;
 }
 
+}
+
+@media screen and (max-width: 375px){
+  .about3-wrapper__map__block{
+  margin:0 3%;
+  padding: 2% 0;
+  width: 270px; height: 230px;
+}
 }
 
 @media screen and (max-width: 320px){

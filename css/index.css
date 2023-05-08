@@ -371,6 +371,15 @@
   height: 100%;
   background-color: #fff;
 }
+
+.service-wrap-ttl{
+  margin-right: 2%;
+}
+
+.service-wrap{
+  padding: 5%;
+}
+
 .service-wrap-con{
   padding: 4% 0%;
 }
